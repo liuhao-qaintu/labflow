@@ -1,0 +1,24 @@
+# Python 3.12
+fastapi==0.143.0
+uvicorn==0.54.0
+starlette==1.7.0
+sqlalchemy==2.1.3
+pymysql==1.2.3
+pydantic==2.13.5
+pydantic-settings==2.15.0
+bcrypt==5.0.0
+PyJWT==2.10.1
+cryptography==50.0.2
+numpy==2.2.6
+faiss-cpu==1.15.1
+openai==1.109.1
+langchain-core==0.3.71
+langchain-openai==0.3.28
+# 固定0.2.x图与2.x checkpoint组合，避免自动升级破坏现有interrupt流程。
+langgraph==0.2.76
+langgraph-checkpoint==2.1.2
+langgraph-checkpoint-sqlite==2.0.6
+aiosqlite==0.21.0
+mcp==2.3.0
+python-multipart==0.0.32
+httpx==0.28.1

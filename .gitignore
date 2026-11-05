@@ -1,0 +1,46 @@
+# Credentials and local settings
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+*.pem
+*.key
+# Dependencies and builds
+node_modules/
+dist/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+# Runtime and private records
+backend/uploads/
+backend/data/rag_index/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.log
+*.npz
+*.faiss
+*.pkl
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.zip
+*.bak
+.vscode/
+.idea/
+.发布准备记录/
+docs/发布准备进度_*.md
+experiments/rag_comparison/models/
+experiments/rag_comparison/runs/
+# Old machine-specific image/DB helper scripts
+backend/fill_imgs.py
+backend/fill_lab_imgs.py
+backend/verify_imgs.py
