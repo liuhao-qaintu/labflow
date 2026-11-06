@@ -13,7 +13,30 @@
 
 labFLow 面向共享实验室的资源查询、预约申请和审批管理。用户可以浏览实验室与设备，通过表单或自然语言表达预约需求；助手结合规则知识库和业务查询，在预约写入前等待用户确认，提交后进入管理员审核流程。
 
-[快速开始](#quickstart) · [使用指南](docs/USAGE.md) · [系统架构](docs/ARCHITECTURE.md) · [配置与维护](docs/OPERATIONS.md) · [测试说明](docs/TESTING.md)
+[项目快照](#screenshots) · [快速开始](#quickstart) · [使用指南](docs/USAGE.md) · [系统架构](docs/ARCHITECTURE.md) · [配置与维护](docs/OPERATIONS.md) · [测试说明](docs/TESTING.md)
+
+<a id="screenshots"></a>
+
+## 📷 项目快照
+
+<p align="center">
+  <a href="docs/assets/screenshots/assistant-confirmation.png">
+    <img src="docs/assets/screenshots/assistant-confirmation.png" alt="labFLow 助手整理预约信息并展示待确认卡" width="1000" />
+  </a>
+</p>
+<p align="center"><sub>助手预约流程：核对资源与时段后，点击“确认提交”才执行预约工具。截图中尚未完成提交。</sub></p>
+
+<details>
+<summary><strong>展开查看实验室与资源浏览</strong></summary>
+
+<p align="center">
+  <a href="docs/assets/screenshots/laboratories.png">
+    <img src="docs/assets/screenshots/laboratories.png" alt="labFLow 实验室列表、开放时段与预约入口" width="1000" />
+  </a>
+</p>
+<p align="center"><sub>资源列表界面示例：查看实验室信息、开放时段，进入设备查询或预约。</sub></p>
+
+</details>
 
 ## ✨ 可以完成什么
 
